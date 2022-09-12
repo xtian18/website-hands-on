@@ -43,6 +43,11 @@ header {
     color: #fff !important;
     font-weight: 700;
 }
+.nature .navbar-brand {
+    color: black !important;
+    font-weight: 800;
+}
+
 
 .navbar-brand img {
     width: 50px;
@@ -55,6 +60,12 @@ header {
     color: #fff !important;
     font-family: 'Montserrat';
 }
+.nature .nav-link {
+    color: black !important;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
 
 .nav-link:hover, .active {
     background-color: rgba(255, 255, 255, 0.3);
@@ -82,10 +93,17 @@ header {
 /*------------------Nature------------------*/
 .nature .navbar .btn-2 {
     border: none !important;
-    background-color: #5496a6;
+    background-color: #88303f;
 }
 
 .nature .navbar .btn-2:hover {
+    background-color: #216576;
+}
+#login{
+    border: none !important;
+    background-color: #88303f;
+}
+#login:hover {
     background-color: #216576;
 }
 
@@ -400,12 +418,12 @@ textarea {
 /* Nature */
 .nature .footer-text .btn {
     color: #fff;
-    background-color:  #62be99;
-    box-shadow: 5px 5px #1c9b68;
+    background-color:  #a94e66;
+    box-shadow: 5px 5px #88303f;
 }
 
 .nature .footer-text .btn:active {
-    background-color: #62be99;
+    background-color: #88303f;
 }
 
 .footer-text ul {

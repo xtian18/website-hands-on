@@ -36,6 +36,7 @@ p {
     background-color: #7f312f;
     border-radius: 15px;
     padding: 10px;
+    margin-bottom: 0;
     opacity: .8;
 }
 

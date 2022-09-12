@@ -81,7 +81,7 @@ header {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.nature .nav-link:hover, .active {
+.nature .nav-link:hover, .nature .active {
     text-decoration: underline;
     background-color: rgb(136, 48, 63, 0.4);
     border-radius: 10px;

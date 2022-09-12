@@ -29,6 +29,15 @@ p {
     color: #2b2c2e;
     background-color:#f8c5ad;
 }
+.nature p {
+    font-family: 'Montserrat';
+    line-height: 1.6em;
+    color: white;
+    background-color: #7f312f;
+    border-radius: 15px;
+    padding: 10px;
+    opacity: .8;
+}
 
 /* header */
 
@@ -69,6 +78,13 @@ header {
 
 .nav-link:hover, .active {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.nature .nav-link:hover, .active {
+    text-decoration: underline;
+    background-color: rgb(136, 48, 63, 0.4);
+    border-radius: 10px;
+    color: #341a19;
 }
 
 .navbar .btn {

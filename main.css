@@ -24,6 +24,11 @@ p {
     color: #2b2c2e;
     background-color: #e8f2f4;
 }
+/* nature body */
+.nature {
+    color: #2b2c2e;
+    background-color:#f8c5ad;
+}
 
 /* header */
 
@@ -40,6 +45,9 @@ header {
 }
 
 .navbar-brand img {
+    width: 50px;
+}
+.nature .navbar-brand img {
     width: 50px;
 }
 
@@ -71,6 +79,15 @@ header {
 .galaxy .navbar .btn-2:hover {
     background-color: #216576;
 }
+/*------------------Nature------------------*/
+.nature .navbar .btn-2 {
+    border: none !important;
+    background-color: #5496a6;
+}
+
+.nature .navbar .btn-2:hover {
+    background-color: #216576;
+}
 
 /* hero banner */
 
@@ -91,6 +108,11 @@ header {
 
 .hero-back img {
     width: 100%;
+    object-fit: cover;
+}
+.hero-back .nature-img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -118,7 +140,15 @@ header {
     max-width: 500px;
     z-index: 2;
 }
-
+ .nature .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%,-50%);
+    color: #341a19;
+    max-width: 500px;
+    z-index: 2;
+}
 .hero-text h1 {
     font-size: 5em;
     font-weight: 700;
@@ -146,6 +176,15 @@ header {
 
 .galaxy .hero-text .btn:active {
     background-color: #f08b28;
+}
+/* Nature */
+.nature .hero-text .btn {
+    background-color: #62be99;
+    box-shadow: 7px 7px #1c9b68;
+}
+
+.nature .hero-text .btn:active {
+    background-color:#1c9b68;
 }
 
 /* main section */
@@ -186,6 +225,20 @@ header {
     background-size: cover;
     background-position: 50%;
 }
+/* nature */
+.nature .about-img::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url(https://i.postimg.cc/L5Ld1x2S/AboutUS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
 
 .about-img img {
     width: 100%;
@@ -218,7 +271,16 @@ header {
 .galaxy .about-text .btn:active {
     background-color: #88303f;
 }
+/* Nature */
+.nature .about-text .btn {
+    color: #fff;
+    background-color:  #62be99;
+    box-shadow: 5px 5px #1c9b68;
+}
 
+.nature .about-text .btn:active {
+    background-color: #1c9b68;
+}
 /* meet the team/services section  */
 
 .team-section {
@@ -269,6 +331,15 @@ footer {
     overflow: hidden;
     color: #fff;
 }
+.Nature-footer {
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    color: #341a19;
+}
+.Nature-footer a {
+    color: #341a19;
+}
 
 .footer-back {
     position: absolute;
@@ -279,6 +350,10 @@ footer {
 }
 
 .footer-back img {
+    width: 100%;
+    object-fit: cover;
+}
+.nature .footer-back img {
     width: 100%;
     object-fit: cover;
 }
@@ -299,6 +374,11 @@ textarea {
     background-color: rgba(155, 155, 155, 0.4) !important;
     color: #fff !important;
 }
+/* nature */
+.nature .footer-text input, textarea {
+    background-color: rgba(155, 155, 155, 0.4) !important;
+    color: #f8c5ad !important;
+}
 
 .footer-text .btn {
     border: none;
@@ -316,6 +396,16 @@ textarea {
 
 .galaxy .footer-text .btn:active {
     background-color: #f08b28;
+}
+/* Nature */
+.nature .footer-text .btn {
+    color: #fff;
+    background-color:  #62be99;
+    box-shadow: 5px 5px #1c9b68;
+}
+
+.nature .footer-text .btn:active {
+    background-color: #62be99;
 }
 
 .footer-text ul {
@@ -341,3 +431,9 @@ textarea {
     width: 300px;
     opacity: 0.8;
 }
+/* nature */
+.nature .footer-text img {
+    width: 300px;
+    opacity: 0.8;
+}
+

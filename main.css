@@ -24,7 +24,7 @@ p {
     color: #2b2c2e;
     background-color: #e8f2f4;
 }
-/* nature body */
+
 .nature {
     color: #2b2c2e;
     background-color:#f8c5ad;
@@ -40,6 +40,10 @@ p {
     opacity: .8;
 }
 
+.food {
+    background-color: #070402;
+}
+
 /* header */
 
 header {
@@ -53,11 +57,11 @@ header {
     color: #fff !important;
     font-weight: 700;
 }
+
 .nature .navbar-brand {
     color: black !important;
     font-weight: 800;
 }
-
 
 .navbar-brand img {
     width: 50px;
@@ -75,7 +79,6 @@ header {
     font-family: 'Montserrat';
     font-weight: 800;
 }
-
 
 .nav-link:hover, .active {
     background-color: rgba(255, 255, 255, 0.3);
@@ -107,7 +110,16 @@ header {
 .galaxy .navbar .btn-2:hover {
     background-color: #216576;
 }
-/*------------------Nature------------------*/
+
+.food .navbar .btn-2 {
+    border: none !important;
+    background-color: #800020;
+}
+
+.food .navbar .btn-2:hover {
+    background-color: #5d0017;
+}
+
 .nature .navbar .btn-2 {
     border: none !important;
     background-color: #88303f;
@@ -116,10 +128,12 @@ header {
 .nature .navbar .btn-2:hover {
     background-color: #216576;
 }
+
 #login{
     border: none !important;
     background-color: #88303f;
 }
+
 #login:hover {
     background-color: #216576;
 }
@@ -175,7 +189,7 @@ header {
     max-width: 500px;
     z-index: 2;
 }
- .nature .hero-text {
+.nature .hero-text {
     position: absolute;
     top: 50%;
     left: 10%;
@@ -212,7 +226,16 @@ header {
 .galaxy .hero-text .btn:active {
     background-color: #f08b28;
 }
-/* Nature */
+
+.food .hero-text .btn {
+    background-color: #800020;
+    box-shadow: 7px 7px #5d0017;
+}
+
+.food .hero-text .btn:active {
+    background-color: #5d0017;
+}
+
 .nature .hero-text .btn {
     background-color: #62be99;
     box-shadow: 7px 7px #1c9b68;
@@ -260,7 +283,21 @@ header {
     background-size: cover;
     background-position: 50%;
 }
-/* nature */
+
+.food .about-img::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url(https://i.postimg.cc/Gtgc1JjX/food-about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
 .nature .about-img::before {
     width: 100%;
     height: 100%;
@@ -306,7 +343,17 @@ header {
 .galaxy .about-text .btn:active {
     background-color: #88303f;
 }
-/* Nature */
+
+.food .about-text .btn {
+    color: #fff;
+    background-color: #800020;
+    box-shadow: 5px 5px #5d0017;
+}
+
+.food .about-text .btn:active {
+    background-color: #5d0017;
+}
+
 .nature .about-text .btn {
     color: #fff;
     background-color:  #62be99;
@@ -316,11 +363,17 @@ header {
 .nature .about-text .btn:active {
     background-color: #1c9b68;
 }
+
 /* meet the team/services section  */
 
 .team-section {
     margin: 200px 0;
     text-align: center;
+}
+
+.food .team-section > h1, 
+.food .team-section > p {
+    color: #fff;
 }
 
 .team-section h1 {
@@ -352,6 +405,12 @@ header {
     width: 100%;
     object-fit: cover;
     height: 100%;
+    transition: transform 300ms ease-in-out;
+}
+
+.member-img img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .card-body h3 {
@@ -405,14 +464,9 @@ textarea {
     resize: none !important;
 }
 
-.galaxy .footer-text input, textarea {
+.footer-text input, textarea {
     background-color: rgba(155, 155, 155, 0.4) !important;
     color: #fff !important;
-}
-/* nature */
-.nature .footer-text input, textarea {
-    background-color: rgba(155, 155, 155, 0.4) !important;
-    color: #f8c5ad !important;
 }
 
 .footer-text .btn {
@@ -432,7 +486,17 @@ textarea {
 .galaxy .footer-text .btn:active {
     background-color: #f08b28;
 }
-/* Nature */
+
+.food .footer-text .btn {
+    color: #fff;
+    background-color: rgb(27, 27, 27);
+    box-shadow: 5px 5px #000;
+}
+
+.food .footer-text .btn:active {
+    background-color: #000;
+}
+
 .nature .footer-text .btn {
     color: #fff;
     background-color:  #a94e66;
@@ -466,7 +530,7 @@ textarea {
     width: 300px;
     opacity: 0.8;
 }
-/* nature */
+
 .nature .footer-text img {
     width: 300px;
     opacity: 0.8;

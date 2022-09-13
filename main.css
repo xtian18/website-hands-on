@@ -25,25 +25,10 @@ p {
     background-color: #e8f2f4;
 }
 
-.nature {
+.tech {
     color: #2b2c2e;
-    background-color:#f8c5ad;
+    background-color: #323B68;
 }
-.nature p {
-    font-family: 'Montserrat';
-    line-height: 1.6em;
-    color: white;
-    background-color: #7f312f;
-    border-radius: 15px;
-    padding: 10px;
-    margin-bottom: 0;
-    opacity: .8;
-}
-
-.food {
-    background-color: #070402;
-}
-
 /* header */
 
 header {
@@ -58,15 +43,7 @@ header {
     font-weight: 700;
 }
 
-.nature .navbar-brand {
-    color: black !important;
-    font-weight: 800;
-}
-
 .navbar-brand img {
-    width: 50px;
-}
-.nature .navbar-brand img {
     width: 50px;
 }
 
@@ -74,21 +51,9 @@ header {
     color: #fff !important;
     font-family: 'Montserrat';
 }
-.nature .nav-link {
-    color: black !important;
-    font-family: 'Montserrat';
-    font-weight: 800;
-}
 
 .nav-link:hover, .active {
     background-color: rgba(255, 255, 255, 0.3);
-}
-
-.nature .nav-link:hover, .nature .active {
-    text-decoration: underline;
-    background-color: rgb(136, 48, 63, 0.4);
-    border-radius: 10px;
-    color: #341a19;
 }
 
 .navbar .btn {
@@ -111,33 +76,6 @@ header {
     background-color: #216576;
 }
 
-.food .navbar .btn-2 {
-    border: none !important;
-    background-color: #800020;
-}
-
-.food .navbar .btn-2:hover {
-    background-color: #5d0017;
-}
-
-.nature .navbar .btn-2 {
-    border: none !important;
-    background-color: #88303f;
-}
-
-.nature .navbar .btn-2:hover {
-    background-color: #216576;
-}
-
-#login{
-    border: none !important;
-    background-color: #88303f;
-}
-
-#login:hover {
-    background-color: #216576;
-}
-
 /* hero banner */
 
 .hero {
@@ -157,11 +95,6 @@ header {
 
 .hero-back img {
     width: 100%;
-    object-fit: cover;
-}
-.hero-back .nature-img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
@@ -189,15 +122,7 @@ header {
     max-width: 500px;
     z-index: 2;
 }
-.nature .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translate(-10%,-50%);
-    color: #341a19;
-    max-width: 500px;
-    z-index: 2;
-}
+
 .hero-text h1 {
     font-size: 5em;
     font-weight: 700;
@@ -227,22 +152,44 @@ header {
     background-color: #f08b28;
 }
 
-.food .hero-text .btn {
-    background-color: #800020;
-    box-shadow: 7px 7px #5d0017;
+.tech .hero .container {
+	margin: auto;
+	width: 43%;
+	opacity: 70%;
 }
 
-.food .hero-text .btn:active {
-    background-color: #5d0017;
+.tech .hero .hero-text{
+	text-align: center;
 }
 
-.nature .hero-text .btn {
-    background-color: #62be99;
-    box-shadow: 7px 7px #1c9b68;
+
+.tech .hero-text .btn {
+	margin-top:30px;
+	width: 200px;
+    background-color: white;
+	color: #111111;
+	opacity: 100%;
+	border-radius: 50%;
 }
 
-.nature .hero-text .btn:active {
-    background-color:#1c9b68;
+.tech .hero-text .btn:hover {
+    opacity: 70%;
+}
+
+.tech .hero-text .btn:active {
+    background-color: #222222;
+	border-radius: 50%;
+	animation: ripple 1250ms ease-out forwards, fade 1500ms ease-out forwards;
+}
+
+@keyframes ripple {
+  80%  { transform: scale(2); }
+  100% { transform: scale(2); opacity: 0; }
+}
+
+@keyframes fade {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 /* main section */
@@ -278,35 +225,7 @@ header {
     top: 0;
     right: 0;
     z-index: 0;
-    background-image: url(https://i.postimg.cc/HxBWnZNp/galaxy-about.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-}
-
-.food .about-img::before {
-    width: 100%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 0;
-    background-image: url(https://i.postimg.cc/Gtgc1JjX/food-about.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-}
-
-.nature .about-img::before {
-    width: 100%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 0;
-    background-image: url(https://i.postimg.cc/L5Ld1x2S/AboutUS.png);
+    background-image: url(https://i.postimg.cc/ZnPMDdMy/galaxy-hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -315,6 +234,12 @@ header {
 .about-img img {
     width: 100%;
     height: 300px;
+}
+
+.tech .about-img img {
+	margin-top: 10%;
+	margin-left: 5%;
+    width: 90%;
 }
 
 .about-text {
@@ -344,24 +269,10 @@ header {
     background-color: #88303f;
 }
 
-.food .about-text .btn {
+.tech .about-text .btn {
     color: #fff;
-    background-color: #800020;
-    box-shadow: 5px 5px #5d0017;
-}
-
-.food .about-text .btn:active {
-    background-color: #5d0017;
-}
-
-.nature .about-text .btn {
-    color: #fff;
-    background-color:  #62be99;
-    box-shadow: 5px 5px #1c9b68;
-}
-
-.nature .about-text .btn:active {
-    background-color: #1c9b68;
+    background-color: #141B41;
+    box-shadow: 5px 5px #719EB0;
 }
 
 /* meet the team/services section  */
@@ -369,11 +280,6 @@ header {
 .team-section {
     margin: 200px 0;
     text-align: center;
-}
-
-.food .team-section > h1, 
-.food .team-section > p {
-    color: #fff;
 }
 
 .team-section h1 {
@@ -405,12 +311,6 @@ header {
     width: 100%;
     object-fit: cover;
     height: 100%;
-    transition: transform 300ms ease-in-out;
-}
-
-.member-img img:hover {
-    cursor: pointer;
-    transform: scale(1.2);
 }
 
 .card-body h3 {
@@ -425,15 +325,6 @@ footer {
     overflow: hidden;
     color: #fff;
 }
-.Nature-footer {
-    width: 100%;
-    height: 550px;
-    overflow: hidden;
-    color: #341a19;
-}
-.Nature-footer a {
-    color: #341a19;
-}
 
 .footer-back {
     position: absolute;
@@ -444,10 +335,6 @@ footer {
 }
 
 .footer-back img {
-    width: 100%;
-    object-fit: cover;
-}
-.nature .footer-back img {
     width: 100%;
     object-fit: cover;
 }
@@ -464,7 +351,7 @@ textarea {
     resize: none !important;
 }
 
-.footer-text input, textarea {
+.galaxy .footer-text input, textarea {
     background-color: rgba(155, 155, 155, 0.4) !important;
     color: #fff !important;
 }
@@ -487,24 +374,19 @@ textarea {
     background-color: #f08b28;
 }
 
-.food .footer-text .btn {
+.tech .footer-text .btn {
     color: #fff;
-    background-color: rgb(27, 27, 27);
-    box-shadow: 5px 5px #000;
+    background-color: #719EB0;
 }
 
-.food .footer-text .btn:active {
-    background-color: #000;
-}
-
-.nature .footer-text .btn {
+.tech .footer-text .btn:hover {
     color: #fff;
-    background-color:  #a94e66;
-    box-shadow: 5px 5px #88303f;
+    background-color: #141B41;
 }
 
-.nature .footer-text .btn:active {
-    background-color: #88303f;
+.tech .footer-text .btn:active {
+    color: #fff;
+    background-color: #A3D0E1;
 }
 
 .footer-text ul {
@@ -531,8 +413,7 @@ textarea {
     opacity: 0.8;
 }
 
-.nature .footer-text img {
+.tech .footer-text img {
     width: 300px;
     opacity: 0.8;
 }
-

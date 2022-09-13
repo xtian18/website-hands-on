@@ -7,6 +7,7 @@ This is a group exercise used to test the knowledge on basic HTML and CSS. This 
 ![Galaxy Screenshot 1](https://i.postimg.cc/wMqxCHZV/galaxy-screenshot-1.png)
 ![Galaxy Screenshot 2](https://i.postimg.cc/ydz8T0T2/galaxy-screenshot-2.png)
 ![Galaxy Screenshot 3](https://i.postimg.cc/ZqNq3w6r/galaxy-screenshot-3.png)
+![Galaxy Screenshot 4](https://i.postimg.cc/hjhCZZBj/galaxy-screenshot-4.jpg)
 
 **2. Nature**
 
@@ -16,6 +17,11 @@ This is a group exercise used to test the knowledge on basic HTML and CSS. This 
 ![Nature Screenshot 4](https://i.postimg.cc/8z12Bwnb/page4.jpg)
 
 **3. Technology**
+
+![Technology Screenshot 1](https://i.postimg.cc/sfhBsf6f/tech-screenshot-1.jpg)
+![Technology Screenshot 2](https://i.postimg.cc/m2WPDxJY/tech-screenshot-2.jpg)
+![Technology Screenshot 3](https://i.postimg.cc/0y8rYY8r/tech-screenshot-3.jpg)
+![Technology Screenshot 4](https://i.postimg.cc/Fsb7kWX2/tech-screenshot-4.jpg)
 
 **4. Food**
 

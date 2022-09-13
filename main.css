@@ -25,6 +25,11 @@ p {
     background-color: #e8f2f4;
 }
 
+.tech {
+    color: #2b2c2e;
+    background-color: #323B68;
+}
+
 .nature {
     color: #2b2c2e;
     background-color:#f8c5ad;
@@ -245,6 +250,36 @@ header {
     background-color:#1c9b68;
 }
 
+.tech .hero .container {
+	margin: auto;
+	width: 43%;
+	opacity: 70%;
+}
+
+.tech .hero .hero-text{
+	text-align: center;
+}
+
+
+.tech .hero-text .btn {
+	margin-top:30px;
+	width: 200px;
+    background-color: white;
+	color: #111111;
+	opacity: 100%;
+	border-radius: 50%;
+}
+
+.tech .hero-text .btn:hover {
+    opacity: 70%;
+}
+
+.tech .hero-text .btn:active {
+    background-color: #222222;
+	border-radius: 50%;
+	animation: ripple 1250ms ease-out forwards, fade 1500ms ease-out forwards;
+}
+
 /* main section */
 
 #main {
@@ -268,6 +303,12 @@ header {
     overflow: hidden;
     flex: 0 0 50%;
     border-radius: 10px 0 0 10px;
+}
+
+.tech .about-img img {
+	margin-top: 10%;
+	margin-left: 5%;
+    width: 90%;
 }
 
 .galaxy .about-img::before {
@@ -342,6 +383,12 @@ header {
 
 .galaxy .about-text .btn:active {
     background-color: #88303f;
+}
+
+.tech .about-text .btn {
+    color: #fff;
+    background-color: #141B41;
+    box-shadow: 5px 5px #719EB0;
 }
 
 .food .about-text .btn {
@@ -497,6 +544,21 @@ textarea {
     background-color: #000;
 }
 
+.tech .footer-text .btn {
+    color: #fff;
+    background-color: #719EB0;
+}
+
+.tech .footer-text .btn:hover {
+    color: #fff;
+    background-color: #141B41;
+}
+
+.tech .footer-text .btn:active {
+    color: #fff;
+    background-color: #A3D0E1;
+}
+
 .nature .footer-text .btn {
     color: #fff;
     background-color:  #a94e66;
@@ -536,3 +598,7 @@ textarea {
     opacity: 0.8;
 }
 
+.tech .footer-text img {
+    width: 300px;
+    opacity: 0.8;
+}
